@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<title>Document</title>
+</head>
+<body>
+	<h1 id="root"></h1>
+	<h2 id="root1"></h2>
+</body>
+<script>
+	var a=5;
+	//for(a=0;a<=10;a++)
+	{
+		var a=10;
+		console.log("local variable")
+		console.log(a);
+	}
+	console.log("global variable")
+	console.log(a);
+	//document.querySelector("#root").innerHTML=a;
+//let
+let b=5;
+	//for(b=0;b<=10;b++)
+	{
+		let b=10;
+		console.log("local variable")
+		console.log(b);
+	}
+	console.log("global variable")
+	console.log(b);
+	//document.querySelector("#root1").innerHTML=b;
+
+	const c=5;
+	//for(b=0;b<=10;b++)
+	{
+		const c=10;
+		console.log("local variable")
+		console.log(c);
+	}
+	console.log("global variable")
+	console.log(c);
+
+	//filter
+	var m=[1,2,3,4,5] 	
+		m.filter(i =>console.log(i))
+;
+	//map
+
+	var m=[1,2,3,4,5] 
+			
+		m.map(i =>console.log(i));
+
+		//template lit
+
+		var z='GOPAL sai ram';
+		console.log(z);
+		var f=10;
+		console.log(z+ '${f}');
+</script>
+</html>

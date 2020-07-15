@@ -1,0 +1,51 @@
+{
+	"details":{
+		"image":"download.jpg",
+		"name":"Gopal",
+		"email":"gopal123@gmail.com",
+		"number":"7777777777",
+		"Address":"kallur kurnool"
+	},
+
+	"careerobjective":{
+		"info":"To become software developer"
+	},
+
+	"educationalqualification":[
+		{
+			"institute":"g pullaiah college of engineering and technology",
+			"degree":"B.Tech",
+			"passoutyear":"2020",
+			"percentage":"75%"
+		},
+		{
+			"institute":"gayatri junior college",
+			"degree":"Intermediate",
+			"passoutyear":"2016",
+			"percentage":"97%"
+		},
+		{
+			"institute":"sri aditya vidya nilayam",
+			"degree":"SSC",
+			"passoutyear":"2014",
+			"percentage":"97%"
+		}
+	],
+
+	"technicalskills":[
+		{
+			"title":"programming language",
+			"info":["c,c++,java,R,python"]
+
+		},
+		{
+			"title":"Databases",
+			"info":["oracle,sql,mysql,TinyDB"]
+		},
+		{
+			"title":"opearting systems",
+			"info":["windows,linux"]
+		}
+	]
+
+}
